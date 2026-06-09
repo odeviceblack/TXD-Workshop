@@ -8,4 +8,4 @@ Add some fallbacks, other fixes for outdated methods, and storage permissions
 
 Some options may not be working, which is normal, but it is creating files and importing textures correctly
 
-I'm also leaving a repository on GitHub with the source code for anyone who wants to tinker with it
+I'm also leaving the source code for anyone who wants to tinker with it
