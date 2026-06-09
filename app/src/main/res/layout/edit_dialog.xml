@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/editdialogname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/textureName"
+        android:ems="10"/>
+    <TextView
+        android:id="@+id/edit_dialogdimens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dimens"/>
+    <TextView
+        android:id="@+id/edit_dialogcomp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="compression"/>
+    <TextView
+        android:id="@+id/edit_dialograster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="raster"/>
+    <TextView
+        android:id="@+id/edit_dialogalpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alpha"/>
+</LinearLayout>

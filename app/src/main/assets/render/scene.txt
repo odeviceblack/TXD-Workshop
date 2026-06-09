@@ -1,0 +1,6 @@
+// Archivo de Escena
+// cam son los parametros de la camara
+// bgs es el fondo del escenario
+// Ver manual de ayuda para mas informacion
+cam,0,20,40,0,0,0,0,1,0
+bgs,0,130,230,255

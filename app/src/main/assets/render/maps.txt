@@ -1,0 +1,27 @@
+//Esto es un archivo de mapa
+//para crear un objeto pon los siguientes comandos:
+//box = si quieres crear una caja
+//ret = si quieres crear un rectangulo
+//sp = si quieres crear una esfera
+//obj = si quieres crear un objeto apartir de un obj
+//		parametros para cada objeto 
+//
+//	Caja = box,textura,altura,largo,profundidad,posicionX,posicionY,posicionZ,rotacionX,rotacionY,rotacionZ,autoRotacion,modo
+//	Esfera = sp,textura,radio,columnas,columnas2,posicionX,posicionY,posicionZ,rotacionX,rotacionY,rotacionZ,autoRotacion,modo
+//	Rectangulo = ret,textura,ancho,largo,calidad,posicionX,posicionY,posicionZ,rotacionX,rotacionY,rotacionZ
+//	Objeto = obj,nombre del archivo,textura1,textura2,largo,profundidad,posicionX,posicionY,posicionZ,rotacionX,rotacionY,rotacionZ,autoRotacion,modo
+//
+//	 Ver el Manual de Ayuda para mas informacion
+//
+ret,desert,30,30,8,29,15,0,-90,0,0
+ret,desert,30,30,8,0,15,0,-90,0,0
+ret,desert,30,30,8,-29,15,0,-90,0,0
+ret,desert,30,30,8,29,-15,0,-90,0,0
+ret,desert,30,30,8,0,-15,0,-90,0,0
+ret,desert,30,30,8,-29,-15,0,-90,0,0
+obj,cubo,cubo,0,0,1,0,0,0,0,3
+obj,cubo,cubo,-3,0,1,0,0,0,0,2
+obj,tree1_trunk,tree,3,0,0,0,0,0,0,2
+obj,cubo,cubo,5,0,1,0,0,0,0,2
+obj,cyborg,cyborg,0,1,2.5,-90,0,0,0,2
+obj,cyborg,cyborg,0,1,2.5,0,0,180,0,2

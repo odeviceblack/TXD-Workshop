@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Android 11+ -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <!-- Compatibilidade com Android antigos -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+    	android:name="com.CrashApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/lib_name"
+        android:resizeableActivity="true"
+        android:theme="@style/AppTheme">
+
+		<activity
+            android:name="com.LoadScreen"
+            android:label="@string/lib_name"
+            android:screenOrientation="landscape"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.gtasatutoymas.txdw.MainActivity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+        <activity
+            android:name="com.gtasatutoymas.txdw.File_Browser"
+            android:label="@string/lib_name"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+        <activity
+            android:name="com.gtasatutoymas.txdw.RendererActivity"
+            android:label="@string/render"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+        <activity
+            android:name="com.gtasatutoymas.txdw.HelpActivity"
+            android:label="@string/lib_name"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+        <activity
+            android:name="com.gtasatutoymas.txdw.PreviewActivity"
+            android:label="@string/render"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+*.bak
+local.properties
+gradle/wrapper
+.gradle
+.acside
+app/keys
